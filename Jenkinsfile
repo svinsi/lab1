@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Create page') {
             steps {
-                writeFile file: 'index.html', text: '<h1> Hello from Jenkins Deploy to EC2! </h1>'
+                writeFile file: 'index.html', text: '<h1> Hello World! Jenkins Deploy to EC2 </h1>'
             }
         }
 
