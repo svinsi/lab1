@@ -13,7 +13,7 @@ provider "aws" {
 
 # Creating bucket
 resource "aws_s3_bucket" "website" {
-  bucket = "my-buck4397778922-windows-sv"
+  bucket = "my-buck4397778922-windows-sviatoslav"
 
   tags = {
     Name        = "Website"
